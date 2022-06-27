@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 function App() {
-  const [id, setId] = useState(200)
+  const [id, setId] = useState(600)
   const [pokemon, setPokemon] = useState({
 
   });
