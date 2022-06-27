@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     const get = async () => {
-      const data = await axios.get("https://pokeapi.co/api/v2/pokemon/200")
+      const data = await axios.get("https://pokeapi.co/api/v2/pokemon/600")
       setPokemon({
         name: data.data.name,
         image: data.data.sprites.front_default,
